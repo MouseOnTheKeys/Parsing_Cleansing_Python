@@ -47,12 +47,12 @@ createdattime             |  ts: time, without  separators i.e.: 15:06: -> 15061
 **Note:** ​For Product “B” we have two examples. The first line shows an example when an
 event was not attached to a workflow (​workflow_id​ ​and​ ​workflow_name​ ​are null). The
 second line displays an example when an event was attached to a workflow (​workflow_id
-and ​workflow_name ​are not null). In this case ​ **optionally** ​ we might have also received an
+and ​workflow_name ​are not null).   In this case ​ **optionally** ​ we might have also received an
 extra json object​ with a new field of ​test​ - in this case we would like to link the extra object
 to this event object based on ​workflow_id ​and​ email​.
-we would like to link on ​workflowId ​and​ email​:
+we would like to link on ​workflowId ​and​ email​:  
 {"test":"value1",​ **"workflowId":71370** ​,​ **"email":"a1@b.com"** ​}{​ **"email":"a1@b.com"** ​,"dataFields":{..,​ **"workflowId":71370** ​,..}
-=> and we would like to generate the end result csv as discussed before (​test​ -> ​custom​):
+=> and we would like to generate the end result csv as discussed before (​test​ -> ​custom​):  
 "id","email","event","workflow_id","workflow_name","campaign_name","tag",
 "custom","createdatdate","createdattime"
 
