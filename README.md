@@ -20,27 +20,27 @@ Product “B”: ​"id","email","event","workflow_id","workflow_name","campaign
 using the mapping:
 </br>
 Product “A”:  
-**Desired output      | Input**
-id                                |  _id 
-email                         | msg->email 
-event                         | has the value either open, click, or unsub.
-createdatdate          |  ts: date, without separators i.e. 2020-06-07 -> 20200607
-createdattime          |  ts: time, without separators i.e.: 15:06:16 -> 150616
+**Desired output      | Input**  
+id                                |  _id   
+email                         | msg->email   
+event                         | has the value either open, click, or unsub.  
+createdatdate          |  ts: date, without separators i.e. 2020-06-07 -> 20200607  
+createdattime          |  ts: time, without separators i.e.: 15:06:16 -> 150616  
 
 
-Product “B”:  
-**Desired output      | Input**
-id                                  | dataFields.messageId
-email                           | email
-event                           |  eventName. has the value:  emailOpen -> open, emailClick -> click, emailUnsubscribe -> unsub.
-workflow_id               | dataFields.workflowId. could be NULL, or an id if the event is attached to a workflow
-createdattime            |  ts: time, without separators i.e.: 15:06:16 -> 150616
-workflow_name        |  dataFields.workflowName. could be NULL, or an id if the event is attached to a workflow
-campaign_name        |  dataFields.campaignName.
-tag                                |  label. if [] -> NULL,otherwise label
-custom                        |  test -> custom
-createdatdate             |  ts: date, withoutseparators i.e. 2020-06--> 20200607
-createdattime             |  ts: time, without  separators i.e.: 15:06: -> 150616
+Product “B”:    
+**Desired output      | Input**  
+id                                  | dataFields.messageId  
+email                           | email  
+event                           |  eventName. has the value:  emailOpen -> open, emailClick -> click, emailUnsubscribe -> unsub.  
+workflow_id               | dataFields.workflowId. could be NULL, or an id if the event is attached to a workflow  
+createdattime            |  ts: time, without separators i.e.: 15:06:16 -> 150616  
+workflow_name        |  dataFields.workflowName. could be NULL, or an id if the event is attached to a workflow  
+campaign_name        |  dataFields.campaignName.  
+tag                                |  label. if [] -> NULL,otherwise label  
+custom                        |  test -> custom  
+createdatdate             |  ts: date, withoutseparators i.e. 2020-06--> 20200607  
+createdattime             |  ts: time, without  separators i.e.: 15:06: -> 150616  
 
 
 
