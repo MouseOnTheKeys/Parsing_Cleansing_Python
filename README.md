@@ -13,9 +13,9 @@ Have a look on these two files first to have an impression of what schemas we ar
 with. ​ **Hint** ​: we can use ​jsonlint.com​ an online tool that helps us formatting json records in
 human readable format easily. We would like to deliver the following content in csv files:
 </br>
-product “A”: ​"id","email","event","createdatdate","createdattime"
+product “A”: ​"id","email","event","createdatdate","createdattime"  
 Product “B”: ​"id","email","event","workflow_id","workflow_name","campaign_name","tag",
-"custom","createdatdate","createdattime"
+"custom","createdatdate","createdattime"  
 </br>
 using the mapping:
 </br>
