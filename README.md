@@ -19,7 +19,7 @@ Product “B”: ​"id","email","event","workflow_id","workflow_name","campaign
 </br>
 using the mapping:
 </br>
-Product “A”: 
+Product “A”:  
 **Desired output      | Input**
 id                                |  _id 
 email                         | msg->email 
@@ -28,7 +28,7 @@ createdatdate          |  ts: date, without separators i.e. 2020-06-07 -> 202006
 createdattime          |  ts: time, without separators i.e.: 15:06:16 -> 150616
 
 
-Product “B”:
+Product “B”:  
 **Desired output      | Input**
 id                                  | dataFields.messageId
 email                           | email
