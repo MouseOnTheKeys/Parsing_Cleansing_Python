@@ -57,19 +57,19 @@ we would like to link on ​workflowId ​and​ email​:
 "custom","createdatdate","createdattime"
 
 **Help:** ​ we don’t know how the records are being stored in data, it could be we have multiple
-json records within a line.
+json records within a line.  
 **Help2** ​: choosing a pattern to identify Product “A” events, "mandrill_events" could be a good
 idea. Respectively, for Product “B” "dataFields" could be a good choice, but we are free to
-choose different ones.
+choose different ones.  
 **Help3** ​: we might have multiple event objects arriving for one ​extra json object​, therefore it
-seems to make sense to represent the extra objects only once.
-**Help4** ​: it makes sense to get rid of the duplicate records before saving any of the output files
+seems to make sense to represent the extra objects only once.  
+**Help4** ​: it makes sense to get rid of the duplicate records before saving any of the output files  
 **Environment** ​: python3 and pandas for data transformations (mandatory), on top of this
-additional libraries are free to use
+additional libraries are free to use  
 **Deliverables** ​: the python source code: the application needs to read in the file data, and
 needs to generate the output files productA.csv and productB.csv with quotes enabled.
 Please also include a requirements.txt plain/text file containing the used python libraries with
-their version numbers.
+their version numbers.  
 
 # Data lookup  (linux)
 
