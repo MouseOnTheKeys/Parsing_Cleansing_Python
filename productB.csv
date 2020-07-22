@@ -1,0 +1,11 @@
+id,email,event,workflow_id,workflow_name,campaign_name,tag,custom,createdatdate,createdattime
+be4e071c11594bb0b4ee3c444fd08b99,a1@example.com,open,79370.0,DWH TEST 06042020 WITH CALL,DWH Test Automation,,valid1,20200406,150616
+be4e071c11594bb0b4ee3c444fd08b9k,b1@example.com,click,79370.0,DWH TEST 06042020 WITH CALL,DWH Test Automation,,valid1,20200406,150616
+be4e071c11594bb0b4ee3c444fd08b99,d1@example.com,open,79370.0,DWH TEST 06042020 WITH CALL,DWH Test Automation,,valid1,20200406,150616
+be4e071c11594bb0b4ee3c444fd08b99,d1@example.com,open,79370.0,DWH TEST 06042020 WITH CALL,DWH Test Automation,,valid2,20200406,150616
+zz4e071c11594bb0b4ee3c444fd08b99,dd1@example.com,open,18370.0,TEST,Cambridge Test,Cambbridge test,,20200410,150616
+zzee071c11594bb0b4ee3c444fd08b99,dd1@example.com,click,18370.0,TEST,Cambridge Test,Cambbridge test,,20200410,150816
+zzee071c11594bb0b4ee3c444fd08b99,dd1@example.com,unsub,18370.0,TEST,Cambridge Test,Cambbridge test,,20200410,210816
+ozee071c11594bb0b4ee3c444fd08b99,z1@example.com,open,,,Cambridge Test,Cambbridge test,,20200412,110816
+ozet071c11594bb0b4ee3c444fd08b99,z1@example.com,click,,,Cambridge Test,Cambbridge test,,20200412,110816
+bz4e071c11594bb0b4ee3c444fd08b99,c1@example.com,unsub,79370.0,DWH TEST 06042020 WITH CALL,DWH Test Automation,,valid1,20200406,150616
